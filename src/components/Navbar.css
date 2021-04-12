@@ -1,0 +1,42 @@
+#menubar-1 {
+  display: flex;
+  list-style: none;
+  justify-content: start;
+  align-items: baseline;
+}
+
+.search input {
+  background: #24292e;
+  size: 75px;
+  width: 180px;
+  height: 27px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.link {
+  display: flex;
+  justify-self: self-start;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#menubar,
+#hidden {
+  background: #24292e;
+  height: 62px;
+  margin: -16px;
+  margin-left: -36px;
+}
+#hidden {
+  display: none;
+}
+
+.list:hover {
+  background-color: red;
+  border-radius: 15px;
+}
+
+.search input:focus {
+  outline-width: 0;
+}
